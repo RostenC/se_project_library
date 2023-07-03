@@ -90,7 +90,7 @@
   right: 20px;
 }
 
-.header__end {
+.header__footer {
   margin-top: auto;
   width: 100%;
   display: flex;
@@ -277,12 +277,12 @@
   color: #fff;
 }
 
-.staff__container_center {
+.staff__container {
   display: flex;
   justify-content: center;
 }
 
-.staff__card_container {
+.staff__container_cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -367,9 +367,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-basis: 220px;
-}
-.step__padding {
-  padding-left: 40px;
+  margin-right: 40px;
 }
 .step__title {
   margin: 0;
