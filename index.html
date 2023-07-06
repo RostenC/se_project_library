@@ -11,53 +11,47 @@
   <body>
     <div class="page">
       <header class="header">
-        <section class="header__bar">
-          <nav class="nav">
-            <img
-              src="./images/logo.svg"
-              alt="Triple Peaks Library Logo"
-              class="nav__logo"
-            />
-            <section class="link-box">
-              <ul class="nav__links">
-                <li>
-                  <a class="nav__link" href="#staff__picks">Staff picks</a>
-                </li>
-                <li>
-                  <a class="nav__link" href="#events">Events</a>
-                </li>
-                <li>
-                  <a class="nav__link" href="#membership">Become a member</a>
-                </li>
-                <li>
-                  <a class="nav__link" href="#about">About</a>
-                </li>
-                <li>
-                  <a class="nav__link" href="#contacts">Contacts</a>
-                </li>
-              </ul>
-            </section>
-          </nav>
-        </section>
-        <section class="header__text">
-          <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
-          <p class="header__description">
-            We're pleased to open our library doors to everyone! Come and expand
-            your development knowledge, or just use this lovely spot to work or
-            study. This is a cool place for cool students!
-          </p>
+        <nav class="nav">
           <img
-            src="./images/inside_the_library.png"
-            alt="Illustration 'Inside the library'"
-            class="header__image"
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
           />
-        </section>
-        <section class="header__footer">
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#events">Events</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#staff__picks">Staff picks</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#membership">Become a member</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
+        <p class="header__description">
+          We're pleased to open our library doors to everyone! Come and expand
+          your development knowledge, or just use this lovely spot to work or
+          study. This is a cool place for cool students!
+        </p>
+        <img
+          src="./images/inside_the_library.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
           <a class="header__link" href="#about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </p>
-        </section>
+        </div>
       </header>
       <main class="content">
         <section class="events" id="events">
@@ -94,7 +88,7 @@
           <div class="events__cover">
             <img
               src="images/cafe.png"
-              alt="image of cafe"
+              alt="cafe of scholars"
               class="events__image"
             />
             <div class="person person_name_feynman">
@@ -125,7 +119,7 @@
               <img
                 src="images/person_cannon.png"
                 alt="Image of Annie Jump Cannon"
-                class="person__image person__image_size_s"
+                class="person__image person__image_size_m"
               />
               <p class="person__caption">Annie Jump Cannon</p>
             </div>
@@ -278,13 +272,13 @@
         <section class="about" id="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
-            <p class="about__paragraph about__paragraph-bottom-padding">
+            <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
               and the Triple Peaks Library is no exception. It first opened its
               doors way back in 2018, right as our humble town began bidding
               welcome to its very first citizens!
             </p>
-            <p class="about__paragraph about__paragraph-bottom-padding">
+            <p class="about__paragraph">
               Since its initial opening, the library has seen nearly 342 monthly
               visitors. That's almost 50% of our population! So far, most
               citizens have enjoyed reading books and using our ample online
@@ -301,31 +295,27 @@
       </main>
       <footer class="footer" id="contacts">
         <div class="footer__columns">
-          <div class="footer__column footer__column-logo">
+          <div class="footer__column-logo">
             <img
               src="/images/logo_white.svg"
               alt="Triple Peaks Library Logo"
               class="footer__logo"
             />
           </div>
-          <div class="footer__column footer__column_content_hours">
+          <div class="footer__column_content_hours">
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
-              <li class="footer__list-item">
-                <p>Weekdays: 9am - 8pm</p>
-              </li>
-              <li class="footer__list-item">
-                <p>Weekends: 10am - 6pm</p>
-              </li>
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-          <div class="footer__column footer__column_content_social">
+          <div class="footer__column_content_social">
             <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
                   <img
-                    src="/images/facebook_white.svg"
+                    src="images/facebook_white.svg"
                     alt="Facebook icon"
                     class="footer__social-icon"
                   />
